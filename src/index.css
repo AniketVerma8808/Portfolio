@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-wave path {
+  animation: wave 6s ease-in-out infinite alternate;
+}
